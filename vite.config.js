@@ -3,6 +3,7 @@ import handlebars from 'vite-plugin-handlebars';
 import path from 'path';
 
 export default defineConfig({
+  base:'/Keshavsoft-task2/',
   plugins: [
     handlebars({
       context: { title: 'KeshavSoft | Home' },
