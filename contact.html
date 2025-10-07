@@ -1,0 +1,41 @@
+{{> head title="KeshavSoft | Contact"}}
+{{> navbar}}
+
+<main class="flex-fill">
+  <section class="container py-5">
+    <h2 class="text-center mb-4">Get in Touch</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input id="name" class="form-control" type="text" placeholder="Your name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input id="email" class="form-control" type="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+          </div>
+
+          <button class="btn btn-primary w-100" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-3">
+          <p><i class="fa-solid fa-envelope me-2"></i> info@keshavsoft.com</p>
+          <p><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</p>
+          <p><i class="fa-solid fa-location-dot me-2"></i> Bangalore, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{{> footer}}

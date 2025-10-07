@@ -1,0 +1,58 @@
+/* Basic layout and footer sticky behavior */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+
+/* Navbar styling */
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.navbar-nav .nav-link {
+  color: #333333;
+  margin: 0 0.5rem;
+  transition: color 0.2s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero gradient */
+section.bg-light {
+  background: linear-gradient(90deg, #e3f2fd 0%, #ffffff 100%);
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+.card .fa-2x {
+  margin-bottom: 0.5rem;
+}
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background: #e7eeeeff;
+  color: #333;
+  padding: 1rem 0;
+  flex-shrink: 0;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+}
